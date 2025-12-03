@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our menu at Itaewon Creative Lounge Café - Drinks, rice bowls, sandwiches, and specials.">
+    <title>Itaewon Creative Lounge Café - Menu & Specials</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">🍽️ Itaewon Creative Lounge Café</div>
+            <button class="hamburger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu & Specials</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="menu">
+            <h2>Menu & Specials</h2>
+            <div class="menu-filter">
+                <button class="filter-btn active" onclick="filterMenu('all', event)">All</button>
+                <button class="filter-btn" onclick="filterMenu('drinks', event)">Drinks</button>
+                <button class="filter-btn" onclick="filterMenu('ricebowls', event)">Rice Bowls</button>
+                <button class="filter-btn" onclick="filterMenu('sandwich', event)">Sandwich</button>
+                <button class="filter-btn" onclick="filterMenu('specials', event)">Specials</button>
+            </div>
+            <div class="menu-items">
+                <div class="item drinks">
+                    <img src="Iced Chai Tea Latte.jpg" alt="Iced Chai Tea Latte drink">
+                    <h3>Iced Chai Tea Latte</h3>
+                    <p>₱185</p>
+                </div>
+                <div class="item drinks">
+                    <img src="Iced Green Tea Latte.jpg" alt="Iced Green Tea Latte drink">
+                    <h3>Iced Green Tea Latte</h3>
+                    <p>₱185</p>
+                </div>
+                <div class="item drinks">
+                    <img src="Green Tea Cream Frappuccino.jpg" alt="Green Tea Cream Frappuccino">
+                    <h3>Green Tea Cream Frappuccino</h3>
+                    <p>₱185</p>
+                </div>
+                <div class="item drinks">
+                    <img src="Strawberries and Cream Frappuccino.jpg" alt="Strawberries and Cream Frappuccino">
+                    <h3>Strawberries and Cream Frappuccino</h3>
+                    <p>₱185</p>
+                </div>
+                <div class="item drinks">
+                    <img src="Iced Peppermint Mocha.jpeg" alt="Iced Peppermint Mocha">
+                    <h3>Iced Peppermint Mocha</h3>
+                    <p>₱185</p>
+                </div>
+                <div class="item drinks">
+                    <img src="Toffee Nut Crunch Frappucino.jpeg" alt="Toffee Nut Crunch Frappucino">
+                    <h3>Toffee Nut Crunch Frappucino</h3>
+                    <p>₱185</p>
+                </div>
+                <div class="item drinks">
+                    <img src="Caramel Cream Frappuccino.jpg" alt="Caramel Cream Frappuccino">
+                    <h3>Caramel Cream Frappuccino</h3>
+                    <p>₱185</p>
+                </div>
+                <div class="item drinks">
+                    <img src="Chocolate Cream Frappuccino.jpg" alt="Chocolate Cream Frappuccino">
+                    <h3>Chocolate Cream Frappuccino</h3>
+                    <p>₱185</p>
+                </div>
+                <div class="item ricebowls">
+                    <img src="Philly Steak Rice.jpg" alt="Philly Steak Rice bowl">
+                    <h3>Philly Steak Rice</h3>
+                    <p>₱220</p>
+                </div>
+                <div class="item ricebowls">
+                    <img src="Chao Fan.jpg" alt="Chao Fan rice bowl">
+                    <h3>Chao Fan</h3>
+                    <p>₱220</p>
+                </div>
+                <div class="item ricebowls">
+                    <img src="Pork Salpicao.jpg" alt="Pork Salpicao rice bowl">
+                    <h3>Pork Salpicao</h3>
+                    <p>₱220</p>
+                </div>
+                <div class="item ricebowls">
+                    <img src="Bibimbap.jpg" alt="Beef Bibimbap rice bowl">
+                    <h3>Beef Bibimbap</h3>
+                    <p>₱220</p>
+                </div>
+
+                <div class="item ricebowls">
+                    <img src="Chicken Rice Bowl.jfif" alt="Chicken Rice Bowl">
+                    <h3>Chicken Rice Bowl</h3>
+                    <p>₱220</p>
+                </div>
+                <div class="item ricebowls">
+                    <img src="Vegan Rice Bowl.jfif" alt="Vegan Rice Bowl">
+                    <h3>Vegan Rice Bowl</h3>
+                    <p>₱220</p>
+                </div>
+                <div class="item ricebowls">
+                    <img src="Sticky Chicken Rice Bowls.jpg" alt="Sticky Chicken Rice Bowls">
+                    <h3>Sticky Chicken Rice Bowls</h3>
+                    <p>₱220</p>
+                </div>
+                <div class="item ricebowls">
+                    <img src="Asian Salmon Rice Bowl.jfif" alt="Asian Salmon Rice Bowl">
+                    <h3>Asian Salmon Rice Bowl</h3>
+                    <p>₱220</p>
+                </div>
+                <div class="item ricebowls">
+                    <img src="Tuna Mayo.jfif" alt="Tuna Mayo Rice Bowl">
+                    <h3>Tuna Mayo Rice Bowl</h3>
+                    <p>₱220</p>
+                </div>
+                <div class="item ricebowls">
+                    <img src="Fiesta Shrimp Bowl.jfif" alt="Fiesta Shrimp Bowl">
+                    <h3>Fiesta Shrimp Bowl</h3>
+                    <p>₱220</p>
+                </div>
+                <div class="item ricebowls">
+                    <img src="Chicken Teriyaki Sushi Bowl.jpg" alt="Chicken Teriyaki Sushi Bowl">
+                    <h3>Chicken Teriyaki Sushi Bowl</h3>
+                    <p>₱220</p>
+                </div>
+                <div class="item ricebowls">
+                    <img src="Cauliflower Rice Bowl.jpeg" alt="Cauliflower Rice Bowl">
+                    <h3>Cauliflower Rice Bowl</h3>
+                    <p>₱220</p>
+                </div>
+                <div class="item sandwich">
+                    <img src="Ham&Egg Sandwich.jpg" alt="Ham and Egg Sandwich">
+                    <h3>Ham & Egg Sandwich</h3>
+                    <p>₱170</p>
+                </div>
+                <div class="item sandwich">
+                    <img src="Cucumber Avocado Tomato sandwich.jpg" alt="Cucumber Avocado Tomato Sandwich">
+                    <h3>Cucumber Avocado Tomato Sandwich</h3>
+                    <p>₱170</p>
+                </div>
+                <div class="item sandwich">
+                    <img src="Club Sandwich.jpg" alt="Club Sandwich">
+                    <h3>Club Sandwich</h3>
+                    <p>₱170</p>
+                </div>
+                <div class="item sandwich">
+                    <img src="Chicken Mayonnaise Sandwich.jpg" alt="Chicken Mayonnaise Sandwich">
+                    <h3>Chicken Mayonnaise Sandwich</h3>
+                    <p>₱170</p>
+                </div>
+                <div class="item sandwich">
+                    <img src="Grilled Cheese Sandwich.jpg" alt="Grilled Cheese Sandwich">
+                    <h3>Grilled Cheese Sandwich</h3>
+                    <p>₱170</p>
+                </div>
+                <div class="item sandwich">
+                    <img src="Chicken Tikka Club Sandwiches.jfif" alt="Chicken Tikka Club Sandwiches">
+                    <h3>Chicken Tikka Club Sandwiches</h3>
+                    <p>₱170</p>
+                </div>
+                <div class="item sandwich">
+                    <img src="Grilled Chicken Sandwich.jpg" alt="Grilled Chicken Sandwich">
+                    <h3>Grilled Chicken Sandwich</h3>
+                    <p>₱170</p>
+                </div>
+                <div class="item specials">
+                    <img src="promo.jpg" alt="Biscoff Indulgence and Red Velvet special">
+                    <h3>Biscoff Indulgence & Red Velvet</h3>
+                    
+                    <p>₱300</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Itaewon Creative Lounge Café. All rights reserved.</p>
+    </footer>
+</body>
+</html>
